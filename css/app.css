@@ -1,0 +1,56 @@
+/** Codigo por defecto **/
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Header y navegacion */
+
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nombre-sitio span {
+    color: #037bc0;
+}
+
+.nav-principal {
+    /* border-color: #e1e1e1;
+    border-top-style: solid;
+    border-width: 1px;*/
+
+    /* Simplificamos lo anterior con la siguiente linea */
+    
+    padding: 20px 0;
+}
+
+.nav-principal a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    border-top: 1px solid #e1e1e1;
+}
+
+.hero {
+    height: 550px;
+    /* La ruta es relativa a la hoja de estilo */
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre-nosotros {
+    background-color: aqua;
+    width: 200px;
+    padding: 25px;
+    box-sizing: border-box;
+}
